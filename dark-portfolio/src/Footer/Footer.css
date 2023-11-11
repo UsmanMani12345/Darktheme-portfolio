@@ -1,0 +1,19 @@
+.footer{
+    font-family: 'Oswald', sans-serif;
+    max-height: 100vh;
+    min-width: 100%;
+    background: #070c10;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-heading h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.circle{
+    font-size: 35px;
+    color: wheat;
+}

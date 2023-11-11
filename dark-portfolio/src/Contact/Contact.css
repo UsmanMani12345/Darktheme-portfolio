@@ -1,0 +1,285 @@
+.contact{
+    font-family: 'Oswald', sans-serif;
+    max-height: 100vh;
+    min-width: 100%;
+    background: #070c10;
+    padding: 10px 20px;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 100px;
+    grid-gap: 30px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.contact-form h2{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: left;
+}
+
+.contact-form input{
+    outline: none;
+    border: 1px solid #302f2f;
+    background: #15171860;
+    padding: 10px 10px; 
+    border-radius: 8px;
+    color: grey;
+}
+.contact-form ::placeholder{
+    text-align: left;
+    color: grey;
+
+}
+
+.contact-form textarea{
+    outline: none;
+    border: 1px solid #302f2f;
+    background: #15171860;
+    padding: 10px 10px; 
+    border-radius: 8px;
+    color: grey;
+    resize: none;
+
+
+}
+
+
+.submit:hover{
+background-color:#302f2f;
+}
+
+
+
+.submit{
+    background-color: rgba(219, 219, 25, 0.966);
+    width: 200px;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.contact-content h2{
+    color: aliceblue;
+}
+
+.contact-content p{
+    color: grey;
+}
+
+
+.contact-link{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 20px;
+}
+.email-one{
+    display: flex;
+    gap: 20px;
+}
+.email-tag{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding:20px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.email-tag:hover{
+    background-color: rgba(128, 128, 128, 0.068);
+    transition: .5s;
+}
+.email-tag .email{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+.email-contact{
+    text-align: left;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-contact h2{
+    color: aliceblue;
+}
+
+.email-contact p{
+    color: grey;
+}
+
+.email-contact span{
+    color: grey;
+}
+
+
+.email-two{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.email-tag1 h2{
+    color: aliceblue;
+}
+
+.profile-links{
+    display: flex;
+    gap: 30px;
+    padding: 30px 10px;
+        
+}
+
+
+
+@media (max-width: 768px) , (max-width: 620px) {
+
+        .contact-info{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+        }
+        .contact-form{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-form h2{
+        font-size: 15px;
+    }
+    .contact-form input{
+        width: 300px;
+        
+    }
+
+    .submit {
+     
+        width: 150px;
+        padding: 10px 20px;
+        text-align: center;
+        border-radius: 50px;
+        color: aliceblue;
+    }
+
+    .contact-content h2{
+        font-size: 15px;
+    }
+    .contact-content p{
+        font-size: 13px;
+    }
+    .contact-link{
+        padding: 4px 20px;
+    }
+
+    .email-tag{
+        padding: 2px 8px;
+    }
+    .email-tag .email{
+        font-size: 13px;
+    }
+
+    .email-contact h2{
+        font-size: 12px;
+    }
+    .email-contact p{
+        font-size: 10px;
+    }
+
+    .email-contact span{
+        font-size: 8px;
+    }
+    .email-tag1 h2{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media (max-width: 620px) , (max-width: 420px) {
+
+    .contact-info{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .contact-form{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form h2{
+    font-size: 12px;
+}
+.contact-form input{
+    width: 200px;
+    padding: 5px 5px;    
+}
+
+.contact-form textarea{
+    width: 200px;
+    padding: 5px 5px;    
+}
+
+.submit {
+ 
+    width: 120px;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+.contact-content h2{
+    font-size: 12px;
+}
+.contact-content p{
+    font-size: 10px;
+}
+.contact-link{
+    padding: 4px 0px;
+}
+
+.email-tag{
+    padding: 2px 6px;
+}
+.email-tag .email{
+    font-size: 10px;
+}
+
+.email-contact h2{
+    font-size: 10px;
+}
+.email-contact p{
+    font-size: 8px;
+}
+
+.email-contact span{
+    font-size: 6px;
+}
+.email-tag1 h2{
+    font-size: 12px;
+}
+}

@@ -1,0 +1,138 @@
+.review{
+    font-family: 'Oswald', sans-serif;
+    max-height: 100vh;
+    min-width: 100%;
+    background: #070c10;
+    padding: 10px 20px;
+}
+
+
+.review-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 10px;
+    padding: 40px 100px;
+}
+
+.review-card{
+    padding: 30px 40px;
+    border: 1px solid #726f6f;
+    background: #15171860;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 70% 75%, 51% 100%, 33% 75%, 0% 75%);
+    
+}
+
+.review-card p{
+    color:aliceblue;
+    padding-bottom: 20px;
+}
+
+.review-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.review-img h3{
+    color: aliceblue;
+}
+
+.review-img span{
+    color: aliceblue;
+}
+
+
+
+@media (max-width:768px) , (max-width:500px) {
+    .review-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-gap: 10px;
+        padding: 40px 10px;
+    }   
+
+    .review-card{
+        padding: 20px 20px;
+        border: 1px solid #726f6f;
+        background: #15171860;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 70% 75%, 51% 100%, 33% 75%, 0% 75%);
+        
+    }
+    
+    .review-card p{
+        color:aliceblue;
+        padding-bottom: 40px;
+        font-size: 10px;
+    }
+
+    .review-img img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+    
+    .review-img h3{
+        color: aliceblue;
+        font-size: 12px;
+    }
+    
+    .review-img span{
+        color: aliceblue;
+        font-size: 12px;
+    }
+    
+}
+
+
+
+@media (max-width:446px) , (max-width:300px) {
+    .review-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-gap: 10px;
+        padding: 40px 10px;
+    }   
+
+    .review-card{
+        padding: 20px 20px;
+        border: 1px solid #726f6f;
+        background: #15171860;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 70% 75%, 51% 100%, 33% 75%, 0% 75%);
+        
+    }
+    
+    .review-card p{
+        color:aliceblue;
+        padding-bottom: 40px;
+        font-size: 8px;
+    }
+
+    .review-img img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    
+    
+    .review-img h3{
+        color: aliceblue;
+        font-size: 10px;
+    }
+    
+    .review-img span{
+        color: aliceblue;
+        font-size: 10px;
+    }
+    
+}

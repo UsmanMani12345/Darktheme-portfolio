@@ -1,0 +1,139 @@
+.blog{
+    font-family: 'Oswald', sans-serif;
+    max-height: 100vh;
+    min-width: 100%;
+    background: #070c10;
+    padding: 10px 20px;
+}
+
+
+.blog-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 100px;
+}
+
+.blog-heading{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-img img{
+    width: 350px;
+    height: 200px;
+}
+
+.blog-heading h4{
+    color:rgba(235, 235, 64, 0.411);
+}
+
+.blog-heading span{
+    color:grey;
+}
+
+.blog-heading h5{
+    color:rgba(235, 235, 64, 0.411);
+}
+
+.blog-para p{
+    color:aliceblue;
+    padding: 10px;
+}
+
+
+
+
+
+@media (max-width:768px) , (max-width:640px) {
+ .blog-content{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px;
+ }   
+
+ .blog-img img{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+.blog-heading h4{
+    color:rgba(235, 235, 64, 0.411);
+    font-size: 10px;
+}
+
+.blog-heading span{
+    color:grey;
+}
+
+.blog-heading h5{
+    color:rgba(235, 235, 64, 0.411);
+    font-size: 10px;
+}
+
+.blog-para p{
+    color:aliceblue;
+    padding: 10px;
+    font-size: 7px;
+}
+}
+
+
+
+
+@media (max-width:640px) , (max-width:440px) {
+    
+    .blog{
+        font-family: 'Oswald', sans-serif;
+        max-height: 100vh;
+        min-width: 100%;
+        background: #070c10;
+    }
+    
+    .blog-content{
+       display: grid;
+       grid-template-columns:1fr;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       padding: 40px 40px;
+    }   
+   
+    .blog-img img{
+       width: 150px;
+       height: 80px;
+   }
+   
+   
+   .blog-heading h4{
+       color:rgba(235, 235, 64, 0.411);
+       font-size: 8px;
+   }
+   
+   .blog-heading span{
+       color:grey;
+       font-size: 7px;
+   }
+   
+   .blog-heading h5{
+       color:rgba(235, 235, 64, 0.411);
+       font-size: 8px;
+   }
+   
+   .blog-para p{
+       color:aliceblue;
+       font-size: 7px;
+   }
+   }

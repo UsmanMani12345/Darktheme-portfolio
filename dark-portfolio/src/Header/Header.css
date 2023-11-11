@@ -1,0 +1,301 @@
+.header{
+  font-family: 'Oswald', sans-serif;
+  max-height: 100vh;
+  background-image:url('../images/back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+  min-width: 100%;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    position: sticky;
+}
+
+.logo-header span {
+    color: rgba(219, 219, 25, 0.966);
+}
+
+.logo-header h1{
+    color: aliceblue;
+}
+
+.navbar-anchor ul{
+    list-style: none;
+
+}
+
+
+.navbar-anchor ul a{
+    color: aliceblue;
+    padding: 2px 20px;
+    text-transform: uppercase;    
+}
+
+.navbar-anchor span {
+    color: rgba(219, 219, 25, 0.966);
+}
+
+
+.navbar-anchor ul a:hover {
+    color: rgba(219, 219, 25, 0.966);
+    transition: .5s;
+}
+
+.empty{
+color: aliceblue;
+}
+.navbar-icon{
+    padding: 2px 15px;
+    gap: 20px;
+    display: flex;
+
+}
+
+.navbar-icon span{
+color: rgba(219, 219, 25, 0.966);
+}
+
+
+.navbar-icon  .icon-phone{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 17px;
+    }
+
+
+
+
+
+    
+.mobile-menu-button {
+    display: none;
+    cursor: pointer;
+  }
+  
+  
+  .mobile-menu-button {
+    position: absolute;
+    bottom: 18px;
+    right: 114px;
+  }
+  
+/* END NAVBAR */
+
+
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 40px;
+    gap: 20px;
+}
+.content-img{
+    border: 5px solid rgb(161, 146, 146);
+    border-radius: 50%;
+    border-left-color: black;
+    border-right-color: black;
+}
+.content-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.content-heading h1 {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 45px;
+}
+.content-heading span {
+    color: rgba(219, 219, 25, 0.966);
+}
+
+.content-para p{
+    color: rgba(157, 157, 158, 0.616);
+}
+
+.content-icons{
+    display: flex;
+    gap: 30px;
+    
+}
+.link-content{
+    font-size: 30px;
+    display: flex;
+    color: aliceblue;
+}
+.link-content:hover{
+    color: rgba(157, 157, 158, 0.616);
+}
+
+  @media (max-width: 768px) , (max-width: 582px) {
+    .navbar {
+      flex-direction: column;
+      position: relative; 
+      
+    }
+  
+    .mobile-menu-button {
+      display: inline-flex;
+      background-color: transparent;
+      /* padding: -20px 20px; */
+      color:darkgoldenrod;
+      border: none;
+      outline: none;
+      font-size: 25px;
+    }
+  
+    .navbar-anchor, .navbar-icon {
+      display: none;
+    }
+  
+    .navbar.mobile-menu-open .navbar-anchor,
+    .navbar.mobile-menu-open .navbar-icon {
+      display: flex;
+      flex-direction: row;
+    }
+    .empty{
+        display: none;
+    }
+    .icon-time{
+        position: relative;
+        top: -40px;
+    }
+
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+
+
+    .content-img img{
+        width: 160px;
+        height: 160px;
+    }
+
+    .content-heading h1{
+        font-size: 35px;
+    }
+
+    .content-para p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .content-icons{
+        display: flex;
+    }
+
+    .link-content{
+        font-size: 23px;
+    }
+
+
+
+  }
+  
+
+
+
+  @media (max-width: 581px) , (max-width: 300px) {
+    .navbar {
+      flex-direction: column;
+      position: relative; 
+      
+    }
+  
+    .mobile-menu-button {
+      display: inline-flex;
+      background-color: transparent;
+      color:darkgoldenrod;
+      border: none;
+      outline: none;
+      font-size: 25px;
+      position: relative;
+      left: 150px;
+    }
+  
+    .navbar-anchor, .navbar-icon {
+      display: none;
+    }
+    .navbar-anchor, .navbar-icon{
+        font-size: 12px;
+    }
+  
+    .navbar.mobile-menu-open .navbar-anchor,
+    .navbar.mobile-menu-open .navbar-icon {
+      display: flex;
+      flex-direction: row;
+    }
+    .empty{
+        display: none;
+    }
+    .icon-time{
+        position: relative;
+        top: -50px;
+    }
+
+    .icon-bar{
+        position: relative;
+        top: -10px;
+    }
+
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+
+
+    .content-img img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .content-heading h1{
+        font-size: 16px;
+    }
+
+    .content-para p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .content-icons{
+        display: flex;
+    }
+
+    .link-content{
+        font-size: 15px;
+    }
+
+
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+.services{
+    font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    min-width: 100%;
+    background: #070c10;
+    padding: 10px 20px;
+}
+
+
+.services-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.card-one{
+    border: 1px solid #302f2f;
+    background: #15171860;
+    padding: 10px 40px; 
+    border-radius: 8px;
+    
+}
+.card-img img{
+    width: 100px;
+}
+.card-heading{
+    padding: 10px 0px;
+}
+.card-heading h2{
+    color: aliceblue;
+}
+
+
+.card-para p{
+    color: grey;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 768px) , (max-width: 500px){
+
+
+.services-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card-img img{
+    width: 50px;
+}
+
+.card-heading h2{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+
+.card-para p{
+    color: grey;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+}
+
+
+
+@media (max-width: 500px) , (max-width: 300px){
+
+
+    .services-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    
+    .card-img img{
+        width: 50px;
+    }
+    
+    .card-heading h2{
+        color: aliceblue;
+        font-size: 15px;
+    }
+    
+    
+    .card-para p{
+        color: grey;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    
+    }
+    
+    
+
+
+

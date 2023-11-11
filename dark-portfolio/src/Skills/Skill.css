@@ -1,0 +1,119 @@
+.skill{
+    font-family: 'Oswald', sans-serif;
+    max-height: 100vh;
+    min-width: 100%;
+    background: #070c10;
+    padding: 10px 20px;
+}
+
+.skill-content{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    grid-gap: 20px;
+}
+.skill-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.skill-heading1 h2{
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.skill-para p{
+    color: grey;
+    font-size: 15px;
+    padding: 0px 20px;
+    line-height: 1.9;
+}
+
+
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+
+.skill-heading h3{
+    color:aliceblue;
+}
+
+
+.skill-percentage p{
+    color:rgba(219, 219, 25, 0.966);
+}
+
+.skill-line{
+    width: 100%;
+    border: 1px solid rgba(219, 219, 25, 0.966);
+}
+
+
+
+
+
+@media (max-width: 768px) , (max-width: 600px){
+.skill-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skill-heading1 h2{
+    font-size: 24px;
+}
+
+.skill-para p{
+    font-size: 12px;
+}
+
+.right{
+    padding: 7px 0px;
+}
+
+.skill-percentage p{
+    font-size: 12px;
+}
+
+.skill-heading h3{
+    font-size: 14px;
+}
+
+}
+
+
+@media (max-width: 600px) , (max-width: 300px){
+    .skill-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .skill-heading1 h2{
+        font-size: 20px;
+    }
+    
+    .skill-para p{
+        font-size: 10px;
+    }
+    
+    .right{
+        padding: 4px 0px;
+    }
+    
+    .skill-percentage p{
+        font-size: 10px;
+    }
+    
+    .skill-heading h3{
+        font-size: 12px;
+    }
+    
+    }

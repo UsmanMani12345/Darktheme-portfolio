@@ -1,0 +1,579 @@
+.resume{
+    font-family: 'Oswald', sans-serif;
+    max-height: 100vh;
+    min-width: 100%;
+    background: #070c10;
+    padding: 10px 20px;
+}
+
+.resume-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.resume-heading{
+    display: flex;
+    gap: 10px;
+}
+
+.resume-heading h2{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.line-dot{
+    position: relative;
+    transform: rotate(180deg); 
+    width: 2px;
+    height: 400px; 
+    background-color: grey;
+    margin-top: 40px;
+}
+.dot{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(61, 60, 60);
+    bottom: 0;
+    left: -5px;
+    border:1px solid grey;
+    border-radius: 50px;
+}
+
+
+.dot1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(61, 60, 60);
+    bottom: 230px;
+    left: -5px;
+    border:1px solid grey;
+    border-radius: 50px;
+}
+
+
+.resume-detail{
+    position: relative;
+    bottom: 420px;
+    text-align: left;
+    left: 50px;
+    padding: 0px 20px;
+}
+
+.resume-edu h2{
+    padding: 10px 0px;
+    font-size: 33px;
+    color:rgba(235, 235, 64, 0.411);
+}
+
+.resume-edu span{
+    padding: 10px 0px;
+    font-size: 20px;
+    color:aliceblue;
+}
+.resume-uni h3{
+    padding: 10px 0px;
+    font-size: 23px;
+    color: grey;
+}
+
+
+.resume-uni p{
+    padding-right: 70px;
+    line-height: 1.7;
+    font-size: 15px;
+    color:grey;
+
+}
+
+
+
+
+.resume-right{
+    position: relative;
+    top: 0px;
+}
+.resume-heading-right{
+    display: flex;
+    gap: 10px;
+}
+
+.resume-heading-right h2{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.line-dot-right{
+    position: relative;
+    transform: rotate(180deg); 
+    width: 2px;
+    height: 400px; 
+    background-color: grey;
+    margin-top: 40px;
+}
+.dot-right{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(61, 60, 60);
+    bottom: 0;
+    left: -5px;
+    border:1px solid grey;
+    border-radius: 50px;
+}
+
+
+.dot1-right{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(61, 60, 60);
+    bottom: 240px;
+    left: -5px;
+    border:1px solid grey;
+    border-radius: 50px;
+}
+
+
+.resume-detail-right{
+    position: relative;
+    bottom: 410px;
+    text-align: left;
+    left: 50px;
+    padding: 0px 20px;
+}
+
+.resume-edu-right h2{
+    padding: 10px 0px;
+    font-size: 33px;
+    color:rgba(235, 235, 64, 0.411);
+}
+
+.resume-edu-right span{
+    padding: 10px 0px;
+    font-size: 20px;
+    color:aliceblue;
+}
+.resume-uni-right h3{
+    padding: 10px 0px;
+    font-size: 23px;
+    color: grey;
+}
+
+
+.resume-uni-right p{
+    padding-right: 70px;
+    line-height: 1.7;
+    font-size: 15px;
+    color:grey;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) , (max-width: 600px){
+
+.resume-heading .res-icon{
+    width: 32px;
+}
+.resume-heading h2{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+.line-dot {
+    position: relative;
+    transform: rotate(180deg);
+    width: 2px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+.resume-detail {
+    position: relative;
+    bottom: 320px;
+    text-align: left;
+    left: 50px;
+    padding: 0px 20px;
+}
+
+.resume-edu h2 {
+    font-size: 23px;
+ 
+}
+
+
+.resume-edu span{
+ font-size: 15px;
+}
+
+.resume-uni h3 {
+    font-size: 17px;
+}
+
+
+.resume-uni h3 {
+    font-size: 17px;
+}
+
+.resume-uni p {
+    padding-right: 20px;
+    font-size: 12px;
+    color: grey;
+}
+
+
+
+
+
+
+
+.resume-heading-right .res-icon{
+    width: 32px;
+}
+.resume-heading-right h2{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+.line-dot-right {
+    position: relative;
+    transform: rotate(180deg);
+    width: 2px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+.resume-detail-right {
+    position: relative;
+    bottom: 320px;
+    text-align: left;
+    left: 50px;
+    padding: 0px 20px;
+}
+
+.resume-edu-right h2 {
+    font-size: 23px;
+ 
+}
+
+
+.resume-edu-right span{
+ font-size: 15px;
+}
+
+.resume-uni-right h3 {
+    font-size: 17px;
+}
+
+
+.resume-uni-right h3 {
+    font-size: 17px;
+}
+
+.resume-uni-right p {
+    padding-right: 20px;
+    font-size: 12px;
+    color: grey;
+}
+}
+
+
+
+
+@media (max-width: 597px) , (max-width: 397px){
+
+    .resume-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* padding: 20px 50px; */
+    }
+.resume-left{
+    position: relative;
+    bottom: 30px;
+}
+
+    .resume-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume-heading .res-icon{
+        width: 22px;
+    }
+
+    .resume-edu h2{
+        font-size: 10px;
+    }
+    .resume-heading h2{
+        font-size: 10px;
+        margin-top: 1px;
+    }
+    
+    
+    .line-dot {
+        position: relative;
+        transform: rotate(180deg);
+        width: 2px;
+        height: 300px;
+        margin-top: 20px;
+        display: none;
+    }
+    
+    
+    .resume-detail {
+        position: relative;
+        bottom:25px;
+        text-align: left;
+        left: 20px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    .resume-edu span{
+     font-size: 12px;
+    }
+    
+    .resume-uni h3 {
+        font-size: 13px;
+    }
+    
+    
+    .resume-uni h3 {
+        font-size: 13px;
+    }
+    
+    .resume-uni p {
+        font-size: 8px;
+        color: grey;
+    }
+
+
+
+.resume-right{
+    position: relative;
+    bottom: 88px;
+}
+    .resume-heading-right{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .resume-heading-right .res-icon{
+        width: 22px;
+    }
+    .resume-heading-right h2{
+        font-size: 10px;
+        margin-top: 1px;
+    }
+    
+    
+    .line-dot-right {
+        position: relative;
+        transform: rotate(180deg);
+        width: 2px;
+        height: 300px;
+        margin-top: 20px;
+        display: none;
+    }
+    
+    
+    .resume-detail-right {
+        position: relative;
+        bottom:25px;
+        text-align: center;
+        left: 20px;
+        /* padding: 0px 20px; */
+    }
+    
+    .resume-edu-right h2 {
+        font-size: 10px;
+     
+    }
+    
+    
+    .resume-edu-right span{
+     font-size: 10px;
+    }
+    
+    .resume-uni-right h3 {
+        font-size: 10px;
+    }
+    
+    
+    
+    .resume-uni-right p {
+        padding-right: 20px;
+        font-size: 8px;
+        color: grey;
+    }
+    }
+
+
+    @media (max-width: 392px) , (max-width: 300px){
+
+        .resume-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .resume-heading{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .resume-heading .res-icon{
+            width: 22px;
+        }
+        .resume-heading h2{
+            font-size: 10px;
+            margin-top: 1px;
+        }
+        
+        
+        .line-dot {
+            position: relative;
+            transform: rotate(180deg);
+            width: 2px;
+            height: 300px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        
+        .resume-detail {
+            position: relative;
+            text-align: center;
+            left: 20px;
+            /* padding: 0px 20px; */
+        }
+        .resume-edu h2 {
+            font-size: 10px;
+            position: relative;
+            bottom: 3px;
+        }
+        
+        
+        .resume-edu span{
+         font-size: 8px;
+         position: relative;
+         bottom: 13px;
+        }
+        
+        .resume-uni h3 {
+            font-size: 10px;
+            position: relative;
+            bottom: 19px;
+        }
+        
+        
+        
+        .resume-uni p {
+            font-size: 6px;
+            color: grey;
+            position: relative;
+            bottom: 20px;
+        }
+    
+    
+    
+    
+    
+    .resume-heading-right{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+        .resume-heading-right .res-icon{
+            width: 22px;
+        }
+        .resume-heading-right h2{
+            font-size: 10px;
+            margin-top: 1px;
+        }
+        
+        
+        .line-dot-right {
+            position: relative;
+            transform: rotate(180deg);
+            width: 2px;
+            height: 300px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        
+        .resume-detail-right {
+            position: relative;
+            bottom:15px;
+            text-align: center;
+            left: 20px;
+            padding: 0px 20px;
+        }
+        
+        .resume-edu-right h2 {
+            font-size: 10px;
+            position: relative;
+            bottom: 9px;
+        }
+        
+        
+        .resume-edu-right span{
+            font-size: 8px;
+            position: relative;
+            bottom: 14px;
+        }
+        
+        .resume-uni-right h3 {
+            font-size: 9px;
+            
+            position: relative;
+            bottom: 20px;
+        }
+        
+        
+        .resume-uni-right h3 {
+            font-size: 10px;
+        }
+        
+        .resume-uni-right p {
+            position: relative;
+            bottom: 25px;
+            font-size: 6px;
+            color: grey;
+            
+        }
+        }
+    
+    
+    
+    
